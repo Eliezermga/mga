@@ -91,13 +91,13 @@
                     <p class="lead">
                   QUI SUIS-JE ?
                     </p>
-                    Je m'appelle ELIEZER MUNUNGA, 
-                    étudiant en science informatique à l'<a href="https://www.unhorizons.org/" target="_blank">Université Nouveaux horizons</a>.
+                    Je suis ELIEZER MUNUNGA,  étudiant en sciences informatiques à l<a href="https://www.unhorizons.org/" target="_blank">Université Nouveaux horizons</a>.
 
-                    <p>
-                    L'informatique pour moi est une passion, et l'ameliorer c'est mon objectif,
-                    je suis un chercheur et un étudiant avec l'ambition d'apporter une inovation en informmatique
-                    et rendre l'informatique accessible partout et surtout dans mon pays qui est la REPUBLIQUE DEMOCRATIQUE DU CONGO
+                    <p>L'informatique n'est pas seulement mon domaine d'études, c'est une véritable passion. Mon objectif principal est de repousser les limites de la technologie tout en rendant l'informatique accessible à tous, particulièrement dans mon pays, la République Démocratique du Congo.
+
+En tant que chercheur et étudiant ambitieux, je travaille constamment à développer des solutions innovantes et à contribuer à l'évolution du secteur informatique. Mon rêve est de voir la technologie transformer des vies et ouvrir de nouvelles opportunités, partout et pour tous.
+
+
                     </p>
                 </div>
             </div>
@@ -128,12 +128,12 @@
                         <div class="timeline__block">
                             <div class="timeline__bullet"></div>
                             <div class="timeline__header">
-                                <p class="timeline__timeframe">DECEMBRE 2023 - Present</p>
+                                <p class="timeline__timeframe">DECEMBRE 2023 - DECEMBRE 2024</p>
                                 <h3 class="item-title">UNIVERSITE NOUVEAUX HORISONS</h3>
                                 <h5>MINISTERE</h5>
                             </div>
                             <div class="timeline__desc">
-                                <p>Je suis ministre de l'entreprenariat au sein du comité des étudiants de L'<a href="https://www.unhorizons.org/" target="_blank"">UNIVERSITE NOUVEAUX HORISONS</a></p>
+                                <p>J'ai été vice-ministre de l'entreprenariat au sein du comité des étudiants de L'<a href="https://www.unhorizons.org/" target="_blank"">UNIVERSITE NOUVEAUX HORISONS</a></p>
                             </div>
                         </div>
                         <div class="timeline__block">
@@ -144,7 +144,7 @@
                                 <h5>Journal des étudiants</h5>
                             </div>
                             <div class="timeline__desc">
-                                <p>Je suis reporteur de L'HORIZON, qui est le journal des étudiants de L'<a href="https://www.unhorizons.org/" target="_blank">UNIVERSITE NOUVEAUX HORISONS.</a></p>
+                                <p>Je suis reporteur et redarteur de L'HORIZON, qui est le journal des étudiants de L'<a href="https://www.unhorizons.org/" target="_blank">UNIVERSITE NOUVEAUX HORISONS.</a></p>
                             </div>
                         </div>
                         <div class="timeline__block">
@@ -522,14 +522,12 @@
         <div class="row contact-main" data-aos="fade-up">
             <div class="column large-full">
                 <p class="contact-email">
-                    <a href="mailto:www.eliezer57@gmail.com">Ma bôite mail</a>
+                    <a href="mailto:eliezermunung@outlook.fr">Outlook</a>
                 </p>
 
                 <p class="section-desc">
-                    Je suis heureux de me connecter, d'écouter et d'aider.
-                     Travaillons ensemble et construisons quelque chose de génial. 
-                     Transformons votre idée en un produit encore plus grand.
-                <a href="mailto:www.eliezer57@gmail.com">Envoyez moi un mail</a>.
+                    Je suis ravi de collaborer, d’écouter vos besoins et de vous accompagner dans la réalisation de vos projets. Ensemble, construisons des solutions exceptionnelles et transformons vos idées en produits innovants et remarquables.
+                <a href="mailto:eliezermunung@outlook.fr">Envoyez moi un mail</a>.
                 </p>
             </div>
         </div>
@@ -560,7 +558,7 @@
     <footer>
         <div class="row">
             <div class="column large-full ss-copyright">
-                <span>©Copyright Eliezer mga 2023</span> 
+                 <span id="copyright"></span>
                 <span>Par <a href="https://github.com/Eliezermga">Eliezer MUNUNGA</a></span>
             </div>            
 
@@ -612,5 +610,11 @@
     <script src="view/js/jquery-3.2.1.min.js"></script>
     <script src="view/js/plugins.js"></script>
     <script src="view/js/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var currentYear = new Date().getFullYear();
+            document.getElementById('copyright').textContent = '©Copyright Eliezer mga ' + currentYear;
+        });
+    </script>
 
 </body>
