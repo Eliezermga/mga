@@ -15,7 +15,8 @@
 
 ## 🔗 My Portfolio
 
-🌍 Check out my personal portfolio: eliezermga.github.io/mga
+🌍 Check out my personal portofolio :
+https://eliezermga.github.io/mga/
 
 
 
