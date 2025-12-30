@@ -3275,4 +3275,5 @@ html[data-useragent*='MSIE 10.0'] .ss-go-top::after,
 html[data-useragent*='rv:11.0'] .ss-go-top::before,
 html[data-useragent*='rv:11.0'] .ss-go-top::after {
   display: none;
-}
+}  
+.fa-twitter::before { content: \"X\" !important; font-family: sans-serif !important; font-weight: bold !important; } 
